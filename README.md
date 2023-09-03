@@ -13,7 +13,7 @@
 
 [동작 과정]
 
-1. Jetson nano와 연결된 CSI카메라모듈을 통해 실시간으로 이미지 데이터를 받아 Object detction을 수행합니다. 
+1. Jetson nano는 연결된 CSI카메라모듈을 통해 실시간으로 이미지 데이터를 받아 Object detction을 수행합니다. 
 
 2. Jetson nano는 Object detction 추론 결과에 따라 Arduino mega에 제어 신호를 전송합니다.
 
