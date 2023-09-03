@@ -5,5 +5,5 @@ Jetson nano는 Object detction 결과에 따라 Arduino에 제어 신호를 전�
 
 Arduino는 Jetson nano에서 수신된 신호에 따라 4개의 선형 액추에이터를 제어하고 총 4 방향으로 쓰레기를 분류합니다. 
 
-참고 : Running YoloV5 with TensorRT Engine on Jetson, https://github.com/mailrocketsystems/JetsonYolov5
+Jetson nano에서 Yolov5 install 참고 : Running YoloV5 with TensorRT Engine on Jetson, https://github.com/mailrocketsystems/JetsonYolov5
 
