@@ -11,9 +11,9 @@
 
 [동작 과정]
 
-1. Jetson nano와 연결된 CSI카메라모듈을 통해 실시간으로 이미지 데이터를 받아옵니다.
+1. Jetson nano와 연결된 CSI카메라모듈을 통해 실시간으로 이미지 데이터를 받아 Object detction을 수행합니다. 
 
-2. Jetson nano는 Object detction 결과에 따라 Arduino mega에 제어 신호를 전송합니다.
+2. Jetson nano는 Object detction 추론 결과에 따라 Arduino mega에 제어 신호를 전송합니다.
 
 3. Arduino mega는 Jetson nano에서 수신된 신호에 따라 4개의 선형 액추에이터를 각각 제어하고 총 4 방향으로 쓰레기를 분류합니다. 
 
