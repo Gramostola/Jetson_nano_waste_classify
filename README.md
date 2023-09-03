@@ -7,7 +7,7 @@
 
 이를 Jetson nano에서 실시간으로 Object detection을 수행합니다. 
 
-학습 데이터는 원본 이미지 325장에서 Data argument를 거쳐 총 800장 가량을 학습 데이터로 사용하였습니다. 
+학습 데이터는 원본 이미지 325장에서 Data argument를 거쳐 총 800장 가량을 확보하였고 train : vaild : test = 8:1:1로 분할하여 학습을 진행하였습니다. 
 
 [동작 과정]
 
