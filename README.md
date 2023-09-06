@@ -15,6 +15,8 @@
 
 학습 데이터는 원본 이미지 325장에서 Data argument를 거쳐 총 800장 가량을 train : vaild : test = 8:1:1로 분할하여 학습을 진행하였습니다. 
 
+Jetson nano에 동작하는 코드와 Arduino mega에서 동작하는 코드를 각각 업로드하였습니다.
+
 [동작 과정]
 
 1. Jetson nano는 연결된 CSI카메라모듈을 통해 실시간으로 이미지 데이터를 받아 Object detction을 수행합니다. 
