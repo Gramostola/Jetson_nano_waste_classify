@@ -1,5 +1,5 @@
 
-2023 임베디드 소프트웨어 경진대회 자유공모 출품작
+2023 임베디드 소프트웨어 경진대회 자유공모 부문 출품작
 
 팀번호:1091 
 
@@ -24,5 +24,6 @@
 3. Arduino mega는 Jetson nano에서 수신된 신호에 따라 4개의 선형 액추에이터를 각각 제어하고 총 4 방향으로 쓰레기를 분류합니다. 
 
 [참고]
+
 Jetson nano에서 Yolov5 install : Running YoloV5 with TensorRT Engine on Jetson, https://github.com/mailrocketsystems/JetsonYolov5
 
