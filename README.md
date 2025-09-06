@@ -1,9 +1,13 @@
 
 2023 임베디드 SW경진대회 자유공모 부문 출품작
 
+
 팀명 : MESS(Mechanic Electronic Software Synergy)
+
 팀번호 : 1091 
+
 작품명(주제) : 지능형 폐기물분류장치
+
 
 [설명]
 
@@ -28,5 +32,6 @@ Jetson Nano와 Arduino 에서 동작하는 코드를 각각 업로드하였습�
 5. 분류 작업이 완료되면 액추에이터의 위치를 초기화 합니다.
 
 [참고 문헌]
+
 Running YoloV5 with TensorRT Engine on Jetson, https://github.com/mailrocketsystems/JetsonYolov5
 
