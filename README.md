@@ -8,6 +8,7 @@
 
 작품명(주제) : 지능형 폐기물분류장치
 
+시연 영상 : https://www.youtube.com/watch?v=P6nT9Uv6HWQ&list=WL&index=42
 
 [설명]
 
