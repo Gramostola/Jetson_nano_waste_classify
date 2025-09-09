@@ -16,7 +16,7 @@
 
 객체 인식 및 분류를 위해 Yolov5 모델을 적용하여 Jetson Nano(JetPack 4.6.4)에서 실시간 Object detection을 수행합니다. 
 
-학습 데이터는 원본 이미지 325장에서 Data argument를 거쳐 총 800장 가량을 확보하고, train : vaild : test = 8:1:1로 분할하여 학습을 진행하였습니다. 
+학습 데이터는 원본 이미지 325장에서 Data argumentation을 거쳐 총 800장 가량을 확보하고, train : vaild : test = 8:1:1로 분할하여 학습을 진행하였습니다. 
 
 Jetson Nano와 Arduino 에서 동작하는 코드를 각각 업로드하였습니다.
 
@@ -25,9 +25,9 @@ Jetson Nano와 Arduino 에서 동작하는 코드를 각각 업로드하였습�
 
 1. 폐기물이 투입되면 근접 센서가 이를 감지하고 LED 조명을 작동합니다. 
 
-2. Jetson Nano는 연결된 CSI카메라모듈(Fisheye lens)을 통해 이미지 데이터를 수신하고 실시간 Object detction을 수행합니다.
+2. Jetson Nano는 연결된 CSI카메라모듈(Fisheye lens)을 통해 이미지 데이터를 수신하고 실시간 Object detection을 수행합니다.
 
-3. Jetson Nano의 Object detction 추론 결과에 따라 Serial 통신으로 제어 신호를 Arduino로 전송합니다.
+3. Jetson Nano의 Object detection 추론 결과에 따라 Serial 통신으로 제어 신호를 Arduino로 전송합니다.
 
 4. Arduino는 Jetson Nano로부터 수신된 제어 신호에 따라 4개의 선형 액추에이터를 제어하여 각 4 방향으로 투입된 폐기물을 분류합니다.
 
